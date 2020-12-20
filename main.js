@@ -1,2 +1,1 @@
-const topBut = document.getElementById('top');
-topBut.addEventListener('click', () => window.scrollTo(0, 0));
+document.getElementById('top').addEventListener('click', () => window.scrollTo(0, 0));
